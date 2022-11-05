@@ -7,8 +7,7 @@ import {
     faTwitter
 } from "@fortawesome/free-brands-svg-icons";
 import {
-    faPaw,
-    faEnvelope
+    faPaw
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
