@@ -86,10 +86,10 @@ export default function Navbar () {
             </div>
             {/* Mobile Navbar */}
             <div className="text-right fixed w-screen p-2 sm:hidden z-20 bg-slate-700 text-slate-200 shadow-2xl">
-                {nav ? <AiOutlineClose onClick={handleNav} className="float-right border-2 border-slate-600 w-10 rounded-md" size={32} /> : <AiOutlineMenu onClick={handleNav} className="float-right border-2 border-slate-600 w-10 rounded-md" size={32} />}
+                {nav ? <AiOutlineClose onClick={handleNav} className="border-2 border-slate-600 w-10 rounded-md" size={32} /> : <AiOutlineMenu onClick={handleNav} className="border-2 border-slate-600 w-10 rounded-md" size={32} />}
             </div>
 
-            <div onClick={handleNav} className={nav ? "sm:hidden bg-slate-700/70 text-slate-200 absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center w-full h-screen ease-in-out duration-500 z-10" : "sm:hidden bg-slate-700/30 text-slate-200 absolute top-0 left-full right-0 bottom-0 flex flex-col items-center w-full h-screen ease-in-out duration-500 z-10"}>
+            <div onClick={handleNav} className={nav ? "sm:hidden bg-slate-700/70 text-slate-200 absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center w-full h-screen ease-in-out duration-500 z-10" : "sm:hidden bg-slate-700/30 text-slate-200 absolute top-0 left-[-100%] right-0 bottom-0 flex flex-col items-center w-full h-screen ease-in-out duration-500 z-10"}>
                         <Link href="/" className="mt-16 grid grid-flow-col pointer-events-auto">
                             <Image src="/pfp.jpg" width={48} height={48} className="rounded-xl pointer-events-none"/>
                             <div className="text-4xl ml-2 mr-8">Oric</div>
