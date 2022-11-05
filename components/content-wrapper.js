@@ -15,7 +15,7 @@ export default function ContentWrapper ({children}) {
             animate="enter" // Animated state to variants.enter
             exit="exit" // Exit state (used later) to variants.exit
             transition={{ type: 'linear' }} // Set the transition to linear
-        className='bg-gray-700/75 text-slate-200 text-xl rounded-xl mb-16 p-16 text-center justify-center flex flex-col max-w-max mx-auto'>
+        className='bg-gray-700/75 text-slate-200 text-xl rounded-xl mb-16 p-4 sm:p-16 text-center justify-center flex flex-col max-w-max mx-auto'>
             {children}
         </motion.div>
     )

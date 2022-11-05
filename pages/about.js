@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Navbar from '../components/navbar'
 import ContentWrapper from '../components/content-wrapper'
 
 export default function About() {
@@ -10,7 +8,7 @@ export default function About() {
         <title>About - Oric</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='text-2xl text-left'>
+      <div className='text-m sm:text-2xl text-left'>
         <p>
           I'm Oric a red wolf PHP backend developer and, as you might have guessed, a furry!
         </p>
@@ -28,7 +26,7 @@ export default function About() {
         </p>
       </div>
 
-      <div className='mt-16 text-sm text-right text-slate-400'>
+      <div className='mt-16 text-xs sm:text-sm text-right text-slate-400'>
         Website created using <a href='https://nextjs.org/' className='underline hover:text-slate-300'>NextJS</a> and <a href='https://tailwindcss.com/' className='underline hover:text-slate-300'>Tailwind CSS</a><br/>
         Art by <a href='https://www.furaffinity.net/user/alexfevralsky' className='underline hover:text-slate-300'>Alex Fevralsky</a>, <a href='https://twitter.com/Dsurion' className='underline hover:text-slate-300'>Dsurion</a>, <a href='https://twitter.com/4ZLTRYSBD' className='underline hover:text-slate-300'>Sangko Bahko</a> and <a href='https://twitter.com/AtlasInu' className='underline hover:text-slate-300'>AtlasInu</a><br/>
         Icons via <a href='https://fontawesome.com/' className='underline hover:text-slate-300'>FontAwesome</a>

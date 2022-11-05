@@ -24,7 +24,7 @@ export default function Layout ({children}) {
         onAnimationComplete={removeCover}>
         </motion.div>     
         <div style={{backgroundRepeat:`no-repeat`, backgroundPosition:`center center`, backgroundImage: `url(${bg.src})`, backgroundSize: `cover`}} className='h-screen w-screen fixed overflow-scroll'>
-            <div className='h-full w-full fixed overflow-scroll py-16 px-32 bg-gray-800/50'>
+            <div className='h-full w-full fixed overflow-scroll py-16 px-2 bg-gray-800/50'>
                 <AnimatePresence
                 mode="wait">
                     {children}
