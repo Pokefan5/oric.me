@@ -5,11 +5,14 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
 const {motion, AnimatePresence} = require('framer-motion');
 
+
 function MyApp({ Component, pageProps, router }) {
+
+
   return (
-      <Layout>
-          <Component {...pageProps} key={router.route}/>
-      </Layout>
+    <Layout>
+        <Component {...pageProps} key={router.route}/>
+    </Layout>
     )
 }
 

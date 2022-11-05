@@ -20,11 +20,11 @@ const variants = {
 
 export default function Navbar () {
     return (
-        <div className="mx-0 bg-slate-700 text-slate-400 h-20 grid grid-flow-col shadow-2xl select-none w-screen relative z-50">
+        <div className="mx-0 bg-slate-700 text-slate-400 h-20 grid grid-flow-col shadow-2xl select-none w-screen relative z-30">
             <div className="text-left my-auto mx-8 flex justify-start items-center">
                 <div className="grid grid-flow-col items-center">
-                    <Link href="/" className="grid grid-flow-col">
-                        <Image src="/pfp.png" width={48} height={48} className="rounded-xl pointer-events-none"/>
+                    <Link href="/" className="grid grid-flow-col pointer-events-auto">
+                        <Image src="/pfp.jpg" width={48} height={48} className="rounded-xl pointer-events-none"/>
                         <div className="text-4xl ml-2 mr-8">Oric</div>
                     </Link>
                     <Link href="/" className="px-4 py-2 rounded-md hover:bg-slate-600 active:bg-slate-500 active:shadow-inner">Home</Link>
