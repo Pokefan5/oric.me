@@ -42,7 +42,11 @@ export default function Navbar () {
                         <Link href="/social" className="px-4 py-2 rounded-md hover:bg-slate-600 active:bg-slate-500 active:shadow-inner">Social Media</Link>
                     </div>
                 </div>
-                <div className="text-right my-auto mx-8 flex justify-end text-slate-400">
+                <motion.div 
+                initial={{ opacity: 0}}
+                animate={{ opacity: 1}}
+                transition={{delay: 0.5, duration: 0.1}}
+                className="text-right my-auto mx-8 flex justify-end text-slate-400">
                     <ReactTooltip 
                     effect="solid"/>
                     <motion.a
@@ -51,7 +55,7 @@ export default function Navbar () {
                         initial="hidden"
                         animate="enter"
                         transition={{ delay: 1.8 }}
-                        href="https://meow.social/@Oric" className="hover:text-slate-200 mx-2">
+                        href="https://meow.social/@Oric" rel="me" className="hover:text-slate-200 mx-2">
                             <FontAwesomeIcon icon={faMastodon} className="text-4xl" />
                     </motion.a>
                     <motion.a
@@ -90,7 +94,7 @@ export default function Navbar () {
                         href="mailto:admin@oric.me" className="hover:text-slate-200 mx-2">
                         <FontAwesomeIcon icon={faEnvelope} className="text-4xl" />
                     </motion.a>
-                </div>
+                </motion.div>
             </div>
             {/* Mobile Navbar */}
             <div className="text-right fixed w-screen p-2 sm:hidden z-20 bg-slate-700 text-slate-200 shadow-2xl">
