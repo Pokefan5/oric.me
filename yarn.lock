@@ -2682,6 +2682,7 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     react-icons: ^4.6.0
+    react-tooltip: ^4.4.3
     tailwindcss: ^3.2.1
   languageName: unknown
   linkType: soft
@@ -2963,6 +2964,19 @@ __metadata:
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
+  languageName: node
+  linkType: hard
+
+"react-tooltip@npm:^4.4.3":
+  version: 4.4.3
+  resolution: "react-tooltip@npm:4.4.3"
+  dependencies:
+    prop-types: ^15.8.1
+    uuid: ^7.0.3
+  peerDependencies:
+    react: ">=16.0.0"
+    react-dom: ">=16.0.0"
+  checksum: 1619411abe195e1ca90a1f507c47c3b3e27455118bb2e4f7809bf1e3975d0f7bc203f4ae4c7854868d229a68f7fcdc8ad7841c75da55147838e36f74c0634ba0
   languageName: node
   linkType: hard
 
@@ -3583,6 +3597,15 @@ __metadata:
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
   checksum: 474acf1146cb2701fe3b074892217553dfcf9a031280919ba1b8d651a068c9b15d863b7303cb15bd00a862b498e6cf4ad7b4a08fb134edd5a6f7641681cb54a2
+  languageName: node
+  linkType: hard
+
+"uuid@npm:^7.0.3":
+  version: 7.0.3
+  resolution: "uuid@npm:7.0.3"
+  bin:
+    uuid: dist/bin/uuid
+  checksum: f5b7b5cc28accac68d5c083fd51cca64896639ebd4cca88c6cfb363801aaa83aa439c86dfc8446ea250a7a98d17afd2ad9e88d9d4958c79a412eccb93bae29de
   languageName: node
   linkType: hard
 

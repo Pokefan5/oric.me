@@ -12,6 +12,7 @@ import {
     faPaw,
     faEnvelope
 } from "@fortawesome/free-solid-svg-icons";
+import ReactTooltip from "react-tooltip";
 
 const {motion} = require('framer-motion');
 const variants = {
@@ -42,7 +43,10 @@ export default function Navbar () {
                     </div>
                 </div>
                 <div className="text-right my-auto mx-8 flex justify-end text-slate-400">
+                    <ReactTooltip 
+                    effect="solid"/>
                     <motion.a
+                        data-tip="Mastodon"
                         variants={variants}
                         initial="hidden"
                         animate="enter"
@@ -51,6 +55,7 @@ export default function Navbar () {
                             <FontAwesomeIcon icon={faMastodon} className="text-4xl" />
                     </motion.a>
                     <motion.a
+                        data-tip="Github"
                         variants={variants}
                         initial="hidden"
                         animate="enter"
@@ -59,6 +64,7 @@ export default function Navbar () {
                         <FontAwesomeIcon icon={faGithub} className="text-4xl" />
                         </motion.a>
                     <motion.a
+                        data-tip="FurAffintiy"
                         variants={variants}
                         initial="hidden"
                         animate="enter"
@@ -67,6 +73,7 @@ export default function Navbar () {
                         <FontAwesomeIcon icon={faPaw} className="text-4xl" />
                         </motion.a>
                     <motion.a
+                        data-tip="Twitter"
                         variants={variants}
                         initial="hidden"
                         animate="enter"
@@ -75,6 +82,7 @@ export default function Navbar () {
                         <FontAwesomeIcon icon={faTwitter} className="text-4xl" />
                     </motion.a>
                     <motion.a
+                        data-tip="E-Mail"
                         variants={variants}
                         initial="hidden"
                         animate="enter"
