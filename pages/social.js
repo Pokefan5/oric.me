@@ -27,10 +27,10 @@ export default function Home() {
               Github<br/>
               Pokefan5
           </a>
-          <a href="https://meow.social/@Oric" className="bg-slate-600/80 hover:bg-slate-500/80 py-4 px-16 flex flex-col rounded-3xl basis-[30%]">
+          <a href="https://macrofurs.social/@Oric" className="bg-slate-600/80 hover:bg-slate-500/80 py-4 px-16 flex flex-col rounded-3xl basis-[30%]">
               <FontAwesomeIcon icon={faMastodon} className="text-6xl sm:text-9xl" />
               Mastodon<br/>
-              Oric@meow.social
+              Oric@macrofurs.social
           </a>
           <a href="https://www.furaffinity.net/user/n0tacat/" className="bg-slate-600/80 hover:bg-slate-500/80 py-4 px-16 flex flex-col rounded-3xl basis-[30%]">
               <FontAwesomeIcon icon={faPaw} className="text-6xl sm:text-9xl" />

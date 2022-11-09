@@ -55,7 +55,7 @@ export default function Navbar () {
                         initial="hidden"
                         animate="enter"
                         transition={{ delay: 1.8 }}
-                        href="https://meow.social/@Oric" rel="me" className="hover:text-slate-200 mx-2">
+                        href="https://macrofurs.social/@Oric" rel="me" className="hover:text-slate-200 mx-2">
                             <FontAwesomeIcon icon={faMastodon} className="text-4xl" />
                     </motion.a>
                     <motion.a
@@ -115,7 +115,7 @@ export default function Navbar () {
                         initial="hidden"
                         animate="enter"
                         transition={{ delay: 1.8 }}
-                        href="https://meow.social/@Oric" className="hover:text-slate-200 mx-2">
+                        href="https://macrofurs.social/@Oric" className="hover:text-slate-200 mx-2">
                             <FontAwesomeIcon icon={faMastodon} className="text-4xl" />
                     </a>
                     <a
