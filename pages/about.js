@@ -24,6 +24,10 @@ export default function About() {
           And more often than not I will have a hard time initiating conversations since I usually don't have too many topics come to mind. 
           This doesn't mean I don't like you, I simply don't want to annoy you with empty chatter.
         </p>
+        <div className='py-4'/>
+        <p>
+          I am also currently running the Mastodon instance <a className='underline hover:text-slate-400' href="https://macrofurs.social">macrofurs.social</a>.
+        </p>
       </div>
 
       <div className='mt-16 text-xs sm:text-sm text-right text-slate-400'>
